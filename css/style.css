@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "satisfy";
+  font-size: 1.9rem;
+  min-height: 100vh;
+  background-color: black;
+  background-image: url("https://images.unsplash.com/photo-1439556838232-994e4c0d3b7c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI2Mzg1NDl8&ixlib=rb-4.0.3&q=85");
+  background-size: cover;
+  padding: 3rem;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+#card {
+  border-radius: 50px;
+  padding: 2rem 3rem;
+  background-color: black;
+  color: #d4af37;
+}
+
+span {
+  font-weight: bold;
+  text-decoration: none;
+  color: darkcyan;
+}
+
+button {
+  padding: 1rem;
+  font-family: monospace;
+  font-size: 1.4rem;
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: paleturquoise;
+  margin-bottom: 1rem;
+}
+
+button:hover {
+  background-color: seashell;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
